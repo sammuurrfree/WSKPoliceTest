@@ -14,6 +14,23 @@
 		2F22F0DB26F8A0830015E9E8 /* WSKPolice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F22F0D926F8A0830015E9E8 /* WSKPolice.xcdatamodeld */; };
 		2F22F0DD26F8A0850015E9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F0DC26F8A0850015E9E8 /* Assets.xcassets */; };
 		2F22F0E026F8A0850015E9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F0DE26F8A0850015E9E8 /* LaunchScreen.storyboard */; };
+		2F22F0EC26F8BA9D0015E9E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F22F0EB26F8BA9D0015E9E8 /* MainViewController.swift */; };
+		2F8AD58D26F9BD6E007D283A /* PhotoRobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AD58C26F9BD6E007D283A /* PhotoRobotViewController.swift */; };
+		2F8AD58F26F9C420007D283A /* NewPhotoRobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AD58E26F9C420007D283A /* NewPhotoRobotViewController.swift */; };
+		2F8AD59126F9C89C007D283A /* CaptchaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AD59026F9C89C007D283A /* CaptchaViewController.swift */; };
+		2F8AD59326F9DA02007D283A /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AD59226F9DA02007D283A /* Authorization.swift */; };
+		2F8AD59526FA0A42007D283A /* PhotoRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AD59426FA0A42007D283A /* PhotoRobot.swift */; };
+		2F8AD59A26FA0C35007D283A /* PhotoRobotsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AD59926FA0C35007D283A /* PhotoRobotsCollectionViewCell.swift */; };
+		4B3F39892710512800C4C8C8 /* AuthMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F39882710512800C4C8C8 /* AuthMainViewController.swift */; };
+		4B3F398B2710555000C4C8C8 /* DepartamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F398A2710555000C4C8C8 /* DepartamentViewController.swift */; };
+		4B3F398D271056B700C4C8C8 /* Departament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F398C271056B700C4C8C8 /* Departament.swift */; };
+		4B3F39912710607E00C4C8C8 /* DepatmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F39902710607E00C4C8C8 /* DepatmentTableViewCell.swift */; };
+		4B8B75A1270F00EE00EAC169 /* FaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75A0270F00EE00EAC169 /* FaceCollectionViewCell.swift */; };
+		4B8B75A4270F0A2E00EAC169 /* PhotRobotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75A3270F0A2E00EAC169 /* PhotRobotView.swift */; };
+		4B8B75A6270F284E00EAC169 /* PointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75A5270F284E00EAC169 /* PointModel.swift */; };
+		4B8B75A8270F288300EAC169 /* PointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75A7270F288300EAC169 /* PointViewController.swift */; };
+		4B8B75AA270F295200EAC169 /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75A9270F295200EAC169 /* PaintView.swift */; };
+		4B8B75AC270F2D7100EAC169 /* PaintCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75AB270F2D7100EAC169 /* PaintCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,23 @@
 		2F22F0DC26F8A0850015E9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F22F0DF26F8A0850015E9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F22F0E126F8A0850015E9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F22F0EB26F8BA9D0015E9E8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2F8AD58C26F9BD6E007D283A /* PhotoRobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRobotViewController.swift; sourceTree = "<group>"; };
+		2F8AD58E26F9C420007D283A /* NewPhotoRobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoRobotViewController.swift; sourceTree = "<group>"; };
+		2F8AD59026F9C89C007D283A /* CaptchaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptchaViewController.swift; sourceTree = "<group>"; };
+		2F8AD59226F9DA02007D283A /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		2F8AD59426FA0A42007D283A /* PhotoRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRobot.swift; sourceTree = "<group>"; };
+		2F8AD59926FA0C35007D283A /* PhotoRobotsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRobotsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B3F39882710512800C4C8C8 /* AuthMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMainViewController.swift; sourceTree = "<group>"; };
+		4B3F398A2710555000C4C8C8 /* DepartamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentViewController.swift; sourceTree = "<group>"; };
+		4B3F398C271056B700C4C8C8 /* Departament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departament.swift; sourceTree = "<group>"; };
+		4B3F39902710607E00C4C8C8 /* DepatmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepatmentTableViewCell.swift; sourceTree = "<group>"; };
+		4B8B75A0270F00EE00EAC169 /* FaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B8B75A3270F0A2E00EAC169 /* PhotRobotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotRobotView.swift; sourceTree = "<group>"; };
+		4B8B75A5270F284E00EAC169 /* PointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointModel.swift; sourceTree = "<group>"; };
+		4B8B75A7270F288300EAC169 /* PointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointViewController.swift; sourceTree = "<group>"; };
+		4B8B75A9270F295200EAC169 /* PaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
+		4B8B75AB270F2D7100EAC169 /* PaintCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +92,89 @@
 		2F22F0CF26F8A0830015E9E8 /* WSKPolice */ = {
 			isa = PBXGroup;
 			children = (
+				2F22F0EA26F8A0AD0015E9E8 /* Controllers */,
+				2F22F0E926F8A0A10015E9E8 /* Views */,
+				2F22F0E726F8A08B0015E9E8 /* Model */,
 				2F22F0D026F8A0830015E9E8 /* AppDelegate.swift */,
 				2F22F0D226F8A0830015E9E8 /* SceneDelegate.swift */,
-				2F22F0D426F8A0830015E9E8 /* ViewController.swift */,
-				2F22F0D626F8A0830015E9E8 /* Main.storyboard */,
 				2F22F0DC26F8A0850015E9E8 /* Assets.xcassets */,
-				2F22F0DE26F8A0850015E9E8 /* LaunchScreen.storyboard */,
 				2F22F0E126F8A0850015E9E8 /* Info.plist */,
 				2F22F0D926F8A0830015E9E8 /* WSKPolice.xcdatamodeld */,
 			);
 			path = WSKPolice;
+			sourceTree = "<group>";
+		};
+		2F22F0E726F8A08B0015E9E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F8AD59226F9DA02007D283A /* Authorization.swift */,
+				2F8AD59426FA0A42007D283A /* PhotoRobot.swift */,
+				4B8B75A5270F284E00EAC169 /* PointModel.swift */,
+				4B3F398C271056B700C4C8C8 /* Departament.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F22F0E926F8A0A10015E9E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B75A2270F0A0600EAC169 /* Views */,
+				2F8AD59726FA0C05007D283A /* Cells */,
+				2F22F0D626F8A0830015E9E8 /* Main.storyboard */,
+				2F22F0DE26F8A0850015E9E8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F22F0EA26F8A0AD0015E9E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F22F0D426F8A0830015E9E8 /* ViewController.swift */,
+				2F8AD59026F9C89C007D283A /* CaptchaViewController.swift */,
+				2F22F0EB26F8BA9D0015E9E8 /* MainViewController.swift */,
+				2F8AD58C26F9BD6E007D283A /* PhotoRobotViewController.swift */,
+				2F8AD58E26F9C420007D283A /* NewPhotoRobotViewController.swift */,
+				4B8B75A7270F288300EAC169 /* PointViewController.swift */,
+				4B3F39882710512800C4C8C8 /* AuthMainViewController.swift */,
+				4B3F398A2710555000C4C8C8 /* DepartamentViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F8AD59726FA0C05007D283A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B3F398F2710601800C4C8C8 /* TableViewCells */,
+				4B3F398E2710600300C4C8C8 /* CollectionViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B3F398E2710600300C4C8C8 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2F8AD59926FA0C35007D283A /* PhotoRobotsCollectionViewCell.swift */,
+				4B8B75A0270F00EE00EAC169 /* FaceCollectionViewCell.swift */,
+				4B8B75AB270F2D7100EAC169 /* PaintCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		4B3F398F2710601800C4C8C8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4B3F39902710607E00C4C8C8 /* DepatmentTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4B8B75A2270F0A0600EAC169 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B75A3270F0A2E00EAC169 /* PhotRobotView.swift */,
+				4B8B75A9270F295200EAC169 /* PaintView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +247,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8B75A8270F288300EAC169 /* PointViewController.swift in Sources */,
+				4B3F39892710512800C4C8C8 /* AuthMainViewController.swift in Sources */,
+				4B3F398B2710555000C4C8C8 /* DepartamentViewController.swift in Sources */,
+				4B8B75AA270F295200EAC169 /* PaintView.swift in Sources */,
+				4B8B75AC270F2D7100EAC169 /* PaintCollectionViewCell.swift in Sources */,
+				4B8B75A6270F284E00EAC169 /* PointModel.swift in Sources */,
+				4B3F39912710607E00C4C8C8 /* DepatmentTableViewCell.swift in Sources */,
 				2F22F0D526F8A0830015E9E8 /* ViewController.swift in Sources */,
+				4B8B75A1270F00EE00EAC169 /* FaceCollectionViewCell.swift in Sources */,
+				4B8B75A4270F0A2E00EAC169 /* PhotRobotView.swift in Sources */,
+				2F8AD59126F9C89C007D283A /* CaptchaViewController.swift in Sources */,
 				2F22F0D126F8A0830015E9E8 /* AppDelegate.swift in Sources */,
+				2F8AD58D26F9BD6E007D283A /* PhotoRobotViewController.swift in Sources */,
 				2F22F0D326F8A0830015E9E8 /* SceneDelegate.swift in Sources */,
+				4B3F398D271056B700C4C8C8 /* Departament.swift in Sources */,
+				2F8AD59A26FA0C35007D283A /* PhotoRobotsCollectionViewCell.swift in Sources */,
 				2F22F0DB26F8A0830015E9E8 /* WSKPolice.xcdatamodeld in Sources */,
+				2F8AD59326F9DA02007D283A /* Authorization.swift in Sources */,
+				2F8AD58F26F9C420007D283A /* NewPhotoRobotViewController.swift in Sources */,
+				2F22F0EC26F8BA9D0015E9E8 /* MainViewController.swift in Sources */,
+				2F8AD59526FA0A42007D283A /* PhotoRobot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +415,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q7KY4ZR42;
 				INFOPLIST_FILE = WSKPolice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = student.WSKPolice;
+				PRODUCT_BUNDLE_IDENTIFIER = studendt.WSKPolice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,12 +434,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q7KY4ZR42;
 				INFOPLIST_FILE = WSKPolice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = student.WSKPolice;
+				PRODUCT_BUNDLE_IDENTIFIER = studendt.WSKPolice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
