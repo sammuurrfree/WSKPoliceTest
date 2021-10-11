@@ -31,6 +31,12 @@
 		4B8B75A8270F288300EAC169 /* PointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75A7270F288300EAC169 /* PointViewController.swift */; };
 		4B8B75AA270F295200EAC169 /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75A9270F295200EAC169 /* PaintView.swift */; };
 		4B8B75AC270F2D7100EAC169 /* PaintCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B75AB270F2D7100EAC169 /* PaintCollectionViewCell.swift */; };
+		4BA52B2727142FF500C850CD /* ShowDepartamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA52B2627142FF500C850CD /* ShowDepartamentViewController.swift */; };
+		4BA52B2927143D4C00C850CD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA52B2827143D4C00C850CD /* MapViewController.swift */; };
+		4BA52B2C2714462D00C850CD /* DepartamentAnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA52B2B2714462D00C850CD /* DepartamentAnotation.swift */; };
+		4BA52B2E27145B4400C850CD /* Wanted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA52B2D27145B4400C850CD /* Wanted.swift */; };
+		4BA52B302714622900C850CD /* WantedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA52B2F2714622900C850CD /* WantedViewController.swift */; };
+		4BA52B3227146BF700C850CD /* WantedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA52B3127146BF700C850CD /* WantedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +66,12 @@
 		4B8B75A7270F288300EAC169 /* PointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointViewController.swift; sourceTree = "<group>"; };
 		4B8B75A9270F295200EAC169 /* PaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
 		4B8B75AB270F2D7100EAC169 /* PaintCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintCollectionViewCell.swift; sourceTree = "<group>"; };
+		4BA52B2627142FF500C850CD /* ShowDepartamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDepartamentViewController.swift; sourceTree = "<group>"; };
+		4BA52B2827143D4C00C850CD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4BA52B2B2714462D00C850CD /* DepartamentAnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentAnotation.swift; sourceTree = "<group>"; };
+		4BA52B2D27145B4400C850CD /* Wanted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wanted.swift; sourceTree = "<group>"; };
+		4BA52B2F2714622900C850CD /* WantedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantedViewController.swift; sourceTree = "<group>"; };
+		4BA52B3127146BF700C850CD /* WantedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,7 @@
 				2F8AD59426FA0A42007D283A /* PhotoRobot.swift */,
 				4B8B75A5270F284E00EAC169 /* PointModel.swift */,
 				4B3F398C271056B700C4C8C8 /* Departament.swift */,
+				4BA52B2D27145B4400C850CD /* Wanted.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -118,6 +131,7 @@
 		2F22F0E926F8A0A10015E9E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4BA52B2A2714461100C850CD /* Anotations */,
 				4B8B75A2270F0A0600EAC169 /* Views */,
 				2F8AD59726FA0C05007D283A /* Cells */,
 				2F22F0D626F8A0830015E9E8 /* Main.storyboard */,
@@ -137,6 +151,9 @@
 				4B8B75A7270F288300EAC169 /* PointViewController.swift */,
 				4B3F39882710512800C4C8C8 /* AuthMainViewController.swift */,
 				4B3F398A2710555000C4C8C8 /* DepartamentViewController.swift */,
+				4BA52B2627142FF500C850CD /* ShowDepartamentViewController.swift */,
+				4BA52B2827143D4C00C850CD /* MapViewController.swift */,
+				4BA52B2F2714622900C850CD /* WantedViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -164,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				4B3F39902710607E00C4C8C8 /* DepatmentTableViewCell.swift */,
+				4BA52B3127146BF700C850CD /* WantedTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -175,6 +193,14 @@
 				4B8B75A9270F295200EAC169 /* PaintView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4BA52B2A2714461100C850CD /* Anotations */ = {
+			isa = PBXGroup;
+			children = (
+				4BA52B2B2714462D00C850CD /* DepartamentAnotation.swift */,
+			);
+			path = Anotations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,13 +280,19 @@
 				4B8B75AC270F2D7100EAC169 /* PaintCollectionViewCell.swift in Sources */,
 				4B8B75A6270F284E00EAC169 /* PointModel.swift in Sources */,
 				4B3F39912710607E00C4C8C8 /* DepatmentTableViewCell.swift in Sources */,
+				4BA52B2C2714462D00C850CD /* DepartamentAnotation.swift in Sources */,
 				2F22F0D526F8A0830015E9E8 /* ViewController.swift in Sources */,
+				4BA52B302714622900C850CD /* WantedViewController.swift in Sources */,
 				4B8B75A1270F00EE00EAC169 /* FaceCollectionViewCell.swift in Sources */,
+				4BA52B2927143D4C00C850CD /* MapViewController.swift in Sources */,
 				4B8B75A4270F0A2E00EAC169 /* PhotRobotView.swift in Sources */,
 				2F8AD59126F9C89C007D283A /* CaptchaViewController.swift in Sources */,
+				4BA52B3227146BF700C850CD /* WantedTableViewCell.swift in Sources */,
+				4BA52B2727142FF500C850CD /* ShowDepartamentViewController.swift in Sources */,
 				2F22F0D126F8A0830015E9E8 /* AppDelegate.swift in Sources */,
 				2F8AD58D26F9BD6E007D283A /* PhotoRobotViewController.swift in Sources */,
 				2F22F0D326F8A0830015E9E8 /* SceneDelegate.swift in Sources */,
+				4BA52B2E27145B4400C850CD /* Wanted.swift in Sources */,
 				4B3F398D271056B700C4C8C8 /* Departament.swift in Sources */,
 				2F8AD59A26FA0C35007D283A /* PhotoRobotsCollectionViewCell.swift in Sources */,
 				2F22F0DB26F8A0830015E9E8 /* WSKPolice.xcdatamodeld in Sources */,

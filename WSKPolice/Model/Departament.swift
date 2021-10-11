@@ -7,6 +7,10 @@
 
 import Foundation
 
+struct DepartamentsModel: Codable{
+    let data: [DepartamentModel]
+    let success: Bool
+}
 
 struct DepartamentModel: Codable{
     
@@ -23,25 +27,17 @@ struct DepartamentModel: Codable{
 
 class Departament{
     
-    func getData() -> [DepartamentModel]? {
-        let semaphore = DispatchSemaphore (value: 0)
-        var returnData: [DepartamentModel]? = nil
-
-        var request = URLRequest(url: URL(string: "http://mad2019.hakta.pro/api/department")!,timeoutInterval: Double.infinity)
+    func getData(complitionHandler: @escaping(_ departaments: DepartamentsModel?) -> ()) {
+        
+        var request = URLRequest(url: URL(string: "http://mad2019.hakta.pro/api/department")!)
         request.httpMethod = "GET"
-
+        
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
-          
-            returnData = try? JSONDecoder().decode([DepartamentModel].self , from: data ?? Data())
-            semaphore.signal()
-            
-            return
+            let departaments = try? JSONDecoder().decode(DepartamentsModel.self , from: data ?? Data())
+            complitionHandler(departaments)
         }
-
+        
         task.resume()
-        semaphore.wait()
-    
-        return returnData
     }
     
 }

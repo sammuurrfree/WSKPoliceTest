@@ -7,10 +7,12 @@
 
 import UIKit
 
-class DepartamentViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class DepartamentViewController: UIViewController{
     
 
-    var data = Departament().getData()
+    @IBOutlet weak var tableView: UITableView!
+    var data: [DepartamentModel] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,23 +20,48 @@ class DepartamentViewController: UIViewController, UITableViewDataSource, UITabl
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        
-        data = Departament().getData()
+        loadAndReloadDepartamentData()
     }
-
     
+    
+    
+    func loadAndReloadDepartamentData(){
+        Departament().getData(complitionHandler: { departaments in
+            if departaments != nil{
+                self.data = departaments!.data
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
+            }
+        })
+    }
+    
+
+}
+
+
+extension DepartamentViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data?.count ?? 0
+        return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DepatmentTableViewCell", for: indexPath) as! DepatmentTableViewCell
         
-        cell.titleLabel.text = data![indexPath.row].name
-        cell.subtitleLabel.text = data![indexPath.row].address
+        cell.titleLabel.text = data[indexPath.row].name
+        cell.subtitleLabel.text = data[indexPath.row].address
         
         return cell
     }
-    
+}
 
+
+extension DepartamentViewController: UITableViewDelegate{
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "showDepartamentViewController") as! ShowDepartamentViewController
+        vc.departament = data[0]
+        
+        show(vc, sender: nil)
+    }
 }
